@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tirth | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <nav>
+    <div class="navbar">
+        <div class="logo">
+            <h1>Portfolio*</h1>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-links" id="nav-links">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+ </nav>
+ <div class="hero" id="home">
+    <div class="content">
+        <h1>Hola, I'm Tirth !</h1>
+        <p>I'm a web developer with a passion for creating beautiful and functional websites.</p>
+        <a href="#contact" class="cta-button">Contact Me</a>
+        <a href="#projects" class="cta-button">View Projects</a>    
+    </div>
+    <div class="img">
+        <img src="hero.jpg" alt="Hero Image">
+    </div>
+ </div>
+
+ <!-- About Me Section -->
+ <section id="about" class="section">
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="2.jpg" alt="About Me Image" class="about-image">
+            <div class="about-text">
+                <p>Hello! I'm Tirth, a passionate web developer who loves creating beautiful and functional websites.</p>
+                <p>I specialize in HTML, CSS, and JavaScript, and I'm always eager to learn new technologies and improve my skills.</p>
+                <p>When I'm not coding, you can find me exploring new places, reading books, or enjoying a good cup of coffee.</p>
+                <div class="social-links">
+                    <a href="https://github.com/pranavv05">GitHub</a>
+                    <a href="https://www.linkedin.com/in/pranavvatsa">LinkedIn</a>
+                    <a href="https://x.com/vatsapranav_">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+
+ <!-- Projects Section -->
+ <section id="projects" class="section">
+    <div class="container">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="project1.avif" alt="Project 1" class="project-image">
+                <h3>Project 1</h3>
+                <p>A responsive website built with HTML and CSS.</p>
+            </div>
+            <div class="project-card">
+                <img src="project2.avif" alt="Project 2" class="project-image">
+                <h3>Project 2</h3>
+                <p>An interactive web application using JavaScript.</p>
+            </div>
+            <div class="project-card">
+                <img src="project3.avif" alt="Project 3" class="project-image">
+                <h3>Project 3</h3>
+                <p>A mobile-first design approach for modern browsers.</p>
+            </div>
+        </div>
+    </div>
+ </section>
+
+ <!-- Contact Me Section -->
+ <section id="contact" class="section">
+    <div class="container">
+        <h2>Let's Talk</h2>
+        <div class="contact-container">
+            <div class="contact-text">
+                <p>Have a project in mind or want to discuss potential opportunities? Feel free to reach out!</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p>tirthrajmangoli1@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Phone</h3>
+                        <p>+91 9975776736</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Location</h3>
+                        <p>Bangalore, Karnataka</p>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+ </section>
+ <footer>
+    <div class="footer">
+        <h2>Portfolio.</h2>
+        <p>&copy; 2023 Tirth. All rights reserved.</p>
+    </div>
+ </footer>
+</body>
+</html>
